@@ -30,7 +30,7 @@ public class PerformanceMonitorAspect {
             }
             return result;
         } else {
-            return null;
+            return joinPoint.proceed();
         }
     }
 }
