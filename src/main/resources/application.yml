@@ -1,0 +1,8 @@
+monitoring:
+  performance:
+    starter:
+      enabled: true
+
+  min-time: 200
+  performance-enabled: true
+
